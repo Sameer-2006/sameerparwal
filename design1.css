@@ -1,1 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+body{
+    background-image: url(https://indieground.net/wp-content/uploads/2023/03/Freebie-GradientTextures-Preview-04.jpg`);
+}
 
+#navbar{
+    height: 80px;
+    top:0;
+    left: 0;
+    background-image: url(https://www.shutterstock.com/shutterstock/videos/1060140731/thumb/9.jpg?ip=x480);
+    background-size: cover;
+    display:flex;
+    position: fixed;
+    transition-property: background-image;
+    transition-duration: 2s;
+    right: 0;  
+    padding: 29px;
+    
+}
+
+#navbar:hover{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi_9W07bnqtHwbWq1N5ide4HNGaM4BiFRI8i-dnwZaeKY6N5VAuAEn81mgpXKFoHURYX0&usqp=CAU);
+
+}
+.navlink{
+    position: fixed;
+    right: 0;
+}
+li ,a {
+    font-family: sans-serif;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    display: inline-flex;
+    text-decoration: none;
+    margin: 2px;
+    padding-right: 6px;
+}
+
+.logo{
+   position: fixed;
+   left:5px;
+   top:1px;
+}
+.intro{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    margin-top: 140px;
+    margin-left: 35px;
+}
+#title{
+    font-family: cursive;
+    font-size: 30px;
+    padding: 0;
+}
+.surname{
+    color:blueviolet;    
+}
+.work{
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+}
+.hir{
+    height: 45px;
+    width: 110px; 
+    background-color:blueviolet;
+    border-radius: 25px;
+    color: white;
+    font-weight: 4560;   
+    border-color:blueviolet;
+    box-shadow:blueviolet 0 0 9px 3px ;
+    
+}
+.pht img{
+    float: right;
+    margin-right: 40px;
+}    
+.anim{
+    height: 300px;
+    width: 300px;
+    background: linear-gradient(to right , red,blue);
+    margin: 0 auto;
+    margin-top: 300px;
+}
